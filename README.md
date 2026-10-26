@@ -1,13 +1,12 @@
 <div align="center">
 
-# SEA
-### Toward Safety-Aware AI Agents in Realistic Social Engineering Attack Scenarios
+# SEA: Toward Safety-Aware AI Agents in Realistic Social Engineering Attack Scenarios
 
 **Zhitao He · Chengru Han · Chi Him Zhang · Yi R. (May) Fung**
 
 MMSense Lab, The Hong Kong University of Science and Technology
 
-**[📄 Paper](SEA_paper.pdf) · [Benchmark](#benchmark) · [Meta-SEA](#meta-sea) · [Results](#results) · [Citation](#citation)**
+**[📄 Paper](SEA_paper.pdf)**
 
 **320 Tasks · 8 Domains · 30+ Applications · Chinese & English**
 
