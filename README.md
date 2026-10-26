@@ -2,9 +2,15 @@
 
 # SEA: Toward Safety-Aware AI Agents in Realistic Social Engineering Attack Scenarios
 
-**Zhitao He · Chengru Han · Chi Him Zhang · Yi R. (May) Fung**
+<div align="center">
+<b><a href="https://scholar.google.com/citations?user=ULvoYXgAAAAJ&hl=zh-CN" target="_blank">Zhitao He</a><sup>1</sup> <a href="mailto:chanag@connect.ust.hk">Chengru Han</a><sup>1</sup> <a href="mailto:chzheng@connect.ust.hk">Chi Him Zheng</a><sup>1</sup> <a href="https://mayrfung.github.io/" target="_blank">Yi R. (May) Fung</a><sup>1</sup></b>
 
-MMSense Lab, The Hong Kong University of Science and Technology
+<sup>1</sup>MMSense Lab, Hong Kong University of Science and Technology
+
+<p align="center">
+  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B.svg?logo=arxiv&amp;logoColor=white" alt="arXiv (coming soon)">
+</p>
+</div>
 
 **[📄 Paper](SEA_paper.pdf)**
 
