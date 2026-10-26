@@ -7,7 +7,7 @@
 
 MMSense Lab, The Hong Kong University of Science and Technology
 
-**[📄 Paper](SEA_paper.pdf) · [Benchmark](#benchmark) · [Results](#results) · [Meta-SEA](#meta-sea) · [Citation](#citation)**
+**[📄 Paper](SEA_paper.pdf) · [Benchmark](#benchmark) · [Meta-SEA](#meta-sea) · [Results](#results) · [Citation](#citation)**
 
 **320 Tasks · 8 Domains · 30+ Applications · Chinese & English**
 
@@ -45,6 +45,20 @@ Each attack task in SEA is defined as a structured script containing the attacke
 
 Evaluation spans **5 independent dimensions** covering financial loss, proactive verification, detection efficiency, attack success, and ungrounded action claims, all grounded in verifiable tool execution logs.
 
+## Meta-SEA
+
+<p align="center">
+  <img src="assets/meta-sea.png" alt="Meta-SEA co-evolves attack tasks, the frozen attacker's harness, and the defender model using environment logs and rewards." width="384">
+</p>
+
+*Overview of Meta-SEA. Three dimensions evolve: tasks, attacker harness, and defender model.*
+
+Meta-SEA involves three simultaneous dimensions of evolution: **Task Evolving, Harness Evolving, and Model Evolving**. The attacker agent (weights frozen) serves dual functions, both designing and refining attack tasks (Task Evolving) and executing attacks against the defender in the SEA environment. Environment logs from each interaction are fed back to the attacker agent, driving it to accumulate success/failure experience and attack design patterns at the harness level (Harness Evolving). Environment rewards, computed directly from the D1, D2, and D4 evaluation dimensions without additional LLM scoring, are used to update the defender via reinforcement learning (Model Evolving).
+
+Training tasks are independently generated within selected SEA domains; **the 320 human-authored benchmark tasks are reserved exclusively for evaluation**. Meta-SEA adopts a step-level reward design, providing the defender with dense behavioral feedback rather than sparse signals only at the end of each conversation.
+
+With **Meta-SEA** training, **Qwen3-8B** achieves defense performance comparable to closed-source models while effectively reducing ungrounded action claims.
+
 ## Results
 
 <p align="center">
@@ -73,20 +87,6 @@ The screenshot below shows **Table 1 from the paper**, reporting the main result
 - **Agents rarely verify even when tools are available.** Proactive verification rates are universally low, with D2 averaging only 14.6% under standard conditions. Even DeepSeek-v4 (D2=31.6%) verifies fewer than one in three suspicious claims.
 - **Prompt defense can inflate ungrounded action claims.** Adding a defense prompt to GLM-5 reduces D4 from 61.8% to 36.9%, but D5 increases from 187 to 221. In contrast, GPT-5.4 with defense prompt achieves D4=0.6% with D5 dropping from 64 to 52, suggesting that the defense paradox is model-dependent and language-dependent.
 - **Prompt injection changes model vulnerability.** GPT-5.4+Def achieves near immunity under standard conditions (D4=0.6%) but degrades sharply under injection (D4=45.0%), while Opus-4.6 shows the opposite pattern.
-
-## Meta-SEA
-
-<p align="center">
-  <img src="assets/meta-sea.png" alt="Meta-SEA co-evolves attack tasks, the frozen attacker's harness, and the defender model using environment logs and rewards." width="384">
-</p>
-
-*Overview of Meta-SEA. Three dimensions evolve: tasks, attacker harness, and defender model.*
-
-Meta-SEA involves three simultaneous dimensions of evolution: **Task Evolving, Harness Evolving, and Model Evolving**. The attacker agent (weights frozen) serves dual functions, both designing and refining attack tasks (Task Evolving) and executing attacks against the defender in the SEA environment. Environment logs from each interaction are fed back to the attacker agent, driving it to accumulate success/failure experience and attack design patterns at the harness level (Harness Evolving). Environment rewards, computed directly from the D1, D2, and D4 evaluation dimensions without additional LLM scoring, are used to update the defender via reinforcement learning (Model Evolving).
-
-Training tasks are independently generated within selected SEA domains; **the 320 human-authored benchmark tasks are reserved exclusively for evaluation**. Meta-SEA adopts a step-level reward design, providing the defender with dense behavioral feedback rather than sparse signals only at the end of each conversation.
-
-With **Meta-SEA** training, **Qwen3-8B** achieves defense performance comparable to closed-source models while effectively reducing ungrounded action claims.
 
 ---
 
