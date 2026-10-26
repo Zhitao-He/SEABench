@@ -8,7 +8,8 @@
 <sup>1</sup>MMSense Lab, Hong Kong University of Science and Technology
 
 <p align="center">
-  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B.svg?logo=arxiv&amp;logoColor=white" alt="arXiv (coming soon)"> [📄 Paper](SEA_paper.pdf)
+  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B.svg?logo=arxiv&amp;logoColor=white" alt="arXiv (coming soon)">
+  <a href="SEA_paper.pdf">📄 Paper</a>
 </p>
 </div>
 
