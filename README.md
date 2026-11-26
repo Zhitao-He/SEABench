@@ -8,7 +8,7 @@
 <sup>1</sup>MMSense Lab, Hong Kong University of Science and Technology
 
 <p align="center">
-  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B.svg?style=flat&amp;logo=arxiv&amp;logoColor=white" alt="arXiv (coming soon)" height="20">
+  <a href="https://arxiv.org/pdf/2611.10037"><img src="https://img.shields.io/badge/arXiv-2611.10037-B31B1B.svg?style=flat&amp;logo=arxiv&amp;logoColor=white" alt="arXiv:2611.10037" height="20"></a>
   <a href="SEA_paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B.svg?style=flat" alt="Paper (PDF)" height="20"></a>
 </p>
 </div>
