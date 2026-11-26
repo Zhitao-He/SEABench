@@ -99,11 +99,13 @@ The paper is available above. Benchmark code and task data are not yet included 
 ## Citation
 
 ```bibtex
-@misc{he2026sea,
-  title  = {{SEA}: Toward Safety-Aware {AI} Agents in Realistic Social Engineering Attack Scenarios},
-  author = {He, Zhitao and Han, Chengru and Zhang, Chi Him and Fung, Yi R. (May)},
-  year   = {2026},
-  note   = {Preprint},
-  url    = {https://github.com/Zhitao-He/SEABench}
+@misc{he2026safetyawareaiagentsrealistic,
+      title={Toward Safety-Aware AI Agents in Realistic Social Engineering Attack Scenarios}, 
+      author={Zhitao He and Chengru Han and Chi Him Zhang and Yi R Fung},
+      year={2026},
+      eprint={2611.10037},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2611.10037}, 
 }
 ```
