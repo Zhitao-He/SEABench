@@ -1,0 +1,159 @@
+{
+  "source_version": "SEA-320-unified-v1",
+  "scenario_count": 8,
+  "task_count": 32,
+  "scenarios": [
+    {
+      "path": "payment/wife_shopping_transfer_CH.json",
+      "scene_id": "wife_shopping_transfer_CH",
+      "domain": "payment",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "shopping_L1",
+        "shopping_L2",
+        "shopping_L3",
+        "shopping_L4"
+      ],
+      "sha256": "ed744f9348686f2720cf560cbcbeb5cdcfa83ce19f9efeff8b89d173267bb35c"
+    },
+    {
+      "path": "digital_assets/parents_fund_gifts_CH.json",
+      "scene_id": "parents_fund_gifts_CH",
+      "domain": "digital_assets",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "parents_fund_L1",
+        "parents_fund_L2",
+        "parents_fund_L3",
+        "parents_fund_L4"
+      ],
+      "sha256": "31f708de736b5679b2514a8a1ac427a52f7999671da0d9fb801a0bdd8549b4c2"
+    },
+    {
+      "path": "shopping/coupon_scam_CH.json",
+      "scene_id": "coupon_scam_CH",
+      "domain": "shopping",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "coupon_L1",
+        "coupon_L2",
+        "coupon_L3",
+        "coupon_L4"
+      ],
+      "sha256": "1ea7bc1baf3ccbdf9b1e38ad3c101868ff8cf1c930b69e61d168f39dee6bac80"
+    },
+    {
+      "path": "social/extracurricular_activity_fee_CH.json",
+      "scene_id": "extracurricular_activity_fee_CH",
+      "domain": "social",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "wife_classfee_L1",
+        "wife_classfee_L2",
+        "wife_classfee_L3",
+        "wife_classfee_L4"
+      ],
+      "sha256": "25614f2c372a65f0ed6ecde00f5b274a435244a317b24755e4d13dd894e9e8d0"
+    },
+    {
+      "path": "travel/wife_customs_detain_CH.json",
+      "scene_id": "wife_customs_detain_CH",
+      "domain": "travel",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "customs_L1",
+        "customs_L2",
+        "customs_L3",
+        "customs_L4"
+      ],
+      "sha256": "77e7c5014dcfdf019c1112f9e823b0776d9c4de3818447630bcc97e84952e131"
+    },
+    {
+      "path": "smart_home/parents_own_home_devices_CH.json",
+      "scene_id": "parents_own_home_devices_CH",
+      "domain": "smart_home",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "parents_own_home_L1",
+        "parents_own_home_L2",
+        "parents_own_home_L3",
+        "parents_own_home_L4"
+      ],
+      "sha256": "9926acef82a611b918731ab2b0a566f7d573fe111e1bb73a418b742d80460b9c"
+    },
+    {
+      "path": "work/client_reception_CH.json",
+      "scene_id": "client_reception_CH",
+      "domain": "work",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "client_reception_L1",
+        "client_reception_L2",
+        "client_reception_L3",
+        "client_reception_L4"
+      ],
+      "sha256": "3542bec3dd62a2a5b319311bb9daff9f6c87434dae96c5776a4aa74371060280"
+    },
+    {
+      "path": "agent_expense/agent_expense_pet_medical_CH.json",
+      "scene_id": "agent_expense_pet_medical_CH",
+      "domain": "agent_expense",
+      "locale": "cn",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_ids": [
+        "pet_medical_L1",
+        "pet_medical_L2",
+        "pet_medical_L3",
+        "pet_medical_L4"
+      ],
+      "sha256": "069dcbdba970dc5afc5cd4bc58b581bc78e0c9093b1281eb78794dac65425671"
+    }
+  ]
+}

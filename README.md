@@ -94,7 +94,11 @@ The screenshot below shows **Table 1 from the paper**, reporting the main result
 
 ---
 
-The paper is available above. Benchmark code and task data are not yet included in this repository.
+## Task Preview
+
+We release an initial [task-data preview](data/tasks/README.md): **8 Chinese scenarios, one per domain, each with L1–L4 — 32 evaluation tasks in total**. The selection emphasizes contextual impersonation, multi-step requests, and compromised verification; it is not an empirical hardest-task ranking.
+
+The scenario JSON files preserve their original task configurations. This is a subset of the full 320-task benchmark. The runtime environment, user profiles, benchmark code, and remaining tasks are not yet included, so the preview is not standalone runnable.
 
 ## Citation
 
