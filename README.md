@@ -94,13 +94,13 @@ The screenshot below shows **Table 1 from the paper**, reporting the main result
 
 ---
 
-## Task Preview
+## Research Task Release
 
-We release an initial [task-data preview](data/tasks/README.md): **8 Chinese scenarios, one per domain, each with L1–L4 — 32 evaluation tasks in total**. The selection emphasizes contextual impersonation, multi-step requests, and compromised verification; it is not an empirical hardest-task ranking.
+Given the potential misuse risks associated with social engineering attack scripts, we release only a [selected subset of tasks](data/tasks/README.md) to support further research on AI agent safety and defenses against social engineering attacks. This release contains **8 Chinese scenarios, one per domain, each with L1–L4 — 32 evaluation tasks in total**.
 
 Files are organized as `data/tasks/<domain>/<scene_id>.json`. Each JSON contains scenario metadata and a `tasks` array with all four levels (L1–L4), preserving the original attacker configurations, grading criteria, and applicable verification/contact overrides. See the [task directory](data/tasks/) for the files and the [manifest](data/tasks/manifest.json) for task IDs and file hashes.
 
-This is a subset of the full 320-task benchmark. The runtime environment, user profiles, benchmark code, and remaining tasks are not yet included, so the preview is not standalone runnable.
+This is a subset of the full 320-task benchmark. The runtime environment, user profiles, benchmark code, and remaining tasks are not included in this release. The released task files are not standalone runnable.
 
 ## Citation
 

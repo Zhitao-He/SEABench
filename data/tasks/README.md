@@ -1,6 +1,8 @@
-# SEA task preview
+# SEA research task subset
 
-This release contains **8 Chinese scenarios × 4 levels (L1–L4) = 32 evaluation tasks**, with one scenario from each of the eight SEA domains. The full benchmark described in the paper contains 320 tasks across Chinese and English; this preview is only a subset.
+Given the potential misuse risks associated with social engineering attack scripts, we release only a selected subset of tasks to support further research on AI agent safety and defenses against social engineering attacks.
+
+This release contains **8 Chinese scenarios × 4 levels (L1–L4) = 32 evaluation tasks**, with one scenario from each of the eight SEA domains. The full benchmark described in the paper contains 320 tasks across Chinese and English; this release is only a subset.
 
 ## Selection
 
@@ -25,4 +27,4 @@ These files are copied without changes from the local `SEA-320-unified-v1` archi
 
 ## Availability
 
-This is a **task-data preview**, not a standalone runnable benchmark. The referenced `cn_zhangsan` user profile, simulated applications, runner, prompt synthesizer, and grader are not included in this release. `required_domains` lists dependencies on that environment; it need not match the scenario's primary `domain` one-for-one. The remaining Chinese scenarios and the English task set are not yet included.
+This is a **selected task-data release for research**, not a standalone runnable benchmark. The referenced `cn_zhangsan` user profile, simulated applications, runner, prompt synthesizer, and grader are not included in this release. `required_domains` lists dependencies on that environment; it need not match the scenario's primary `domain` one-for-one. The remaining Chinese scenarios and the English task set are not included in this release.
