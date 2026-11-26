@@ -100,7 +100,6 @@ Given the potential misuse risks associated with social engineering attack scrip
 
 Files are organized as `data/tasks/<domain>/<scene_id>.json`. Each JSON contains scenario metadata and a `tasks` array with all four levels (L1–L4), preserving the original attacker configurations, grading criteria, and applicable verification/contact overrides. See the [task directory](data/tasks/) for the files and the [manifest](data/tasks/manifest.json) for task IDs and file hashes.
 
-This is a subset of the full 320-task benchmark. The runtime environment, user profiles, benchmark code, and remaining tasks are not included in this release. The released task files are not standalone runnable.
 
 ## Selected Trajectories
 
